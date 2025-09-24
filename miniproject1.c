@@ -30,12 +30,13 @@ int main() {
             printf("Recherche d'un contact...\n");
             printf("Nom: %s\n" , noms);
             scanf("%s", noms);
-            printf("Numero: %d\n", numero);
-            scanf("%d", &numero);
+            
             break;
         case 4:
             printf("Selectionnez le contact a supprimer:\n");
-            printf("Nom: %s, Numero: %d\n", noms, numero);
+            printf("Nom: %s", noms);
+            scanf("%s", noms);
+            printf("Contact supprime: Nom: %s\n", noms);
             break;
            
         case 5:
